@@ -1,0 +1,14 @@
+# Ignore Docker artifacts
+*.log
+*.pid
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore editor files
+.vscode/
+.idea/
+
+# Ignore container volumes if you ever mount them
+html/
